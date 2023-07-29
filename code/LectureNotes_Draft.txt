@@ -1,0 +1,16 @@
+Day 4: Behavioral States - What is a behavioral state and how can we define it?
+
+ 
+General lecture: What is a behavioral state?
+Overview of behavioral states with a focus on biology and ethology
+
+Descriptions of behavioral states in multiple species ->  states are a general phenomenon in animal behavior.
+Why do behavioral states matter and why should we care about them?
+
+Relationship between sensory input and motor response depends on behavioral state. 
+
+Emerging appreciation in the field at large that variability in neural activity (e.g. variability in sensory responses) can be partly explained by taking account of state (internal/brain/behavioral states). 
+
+Shifting paradigms in neuroscience. Historically experimenters sought to tightly constrain behavioral states with task design, but there is a trend to relax control to allow more “natural/ethological” behaviors. BUT a big drawback is complexity → Need analysis methods to parse this complexity, particularly with respect to nonstationary behavioral states. 
+
+Neurobiology: general overview of phenomenology at the level of brain areas, circuits, and neuromodulation
