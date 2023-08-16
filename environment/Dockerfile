@@ -11,6 +11,7 @@ RUN pip install -U --no-cache-dir \
     ipywidgets \
     numpy==1.23.4 \
     scikit-learn==1.3.0 \
-    allensdk==2.15.1
+    allensdk==2.15.1 \
+    dynamax[notebooks]
 
 ENV PYTHONPATH "${PYTHONPATH}:/root/capsule/code"
