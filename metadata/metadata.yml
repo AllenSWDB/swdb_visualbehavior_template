@@ -1,6 +1,8 @@
 metadata_version: 1
 name: swdb_behavioral_states
 description: Basic structure of a capsule to be customized as needed.
+tags:
+- swdb2023
 authors:
 - name: Shailaja Akella
 - name: Matthew Bull
