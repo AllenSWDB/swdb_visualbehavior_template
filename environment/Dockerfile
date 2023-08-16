@@ -8,6 +8,9 @@ ARG GIT_ACCESS_TOKEN
 COPY git-askpass /
 
 RUN pip install -U --no-cache-dir \
+    ipywidgets \
+    numpy==1.23.4 \
+    scikit-learn==1.3.0 \
     allensdk==2.15.1
 
 ENV PYTHONPATH "${PYTHONPATH}:/root/capsule/code"
