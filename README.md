@@ -1,8 +1,4 @@
-# aind-capsule-template
-
-Basic structure of a capsule to be customized as needed.
-
-The capsule for Day 4: Behavior States can be found at: https://codeocean.allenneuraldynamics.org/capsule/2444390/tree
+The capsule for SWDB Day 4: Behavior States can be found at: https://codeocean.allenneuraldynamics.org/capsule/2444390/tree
 
 Brief topic outline: 
 

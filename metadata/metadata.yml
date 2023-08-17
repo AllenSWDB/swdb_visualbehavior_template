@@ -1,6 +1,6 @@
 metadata_version: 1
-name: swdb_behavioral_states
-description: Basic structure of a capsule to be customized as needed.
+name: SWDB Behavioral States
+description: 'SWDB Day 4: Behavior States'
 tags:
 - swdb2023
 authors:
