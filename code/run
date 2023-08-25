@@ -1,17 +1,4 @@
 #!/usr/bin/env bash
 set -ex
 
-# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
-jupyter nbconvert \
-	--to 'html' \
-	--ExecutePreprocessor.allow_errors=True \
-	--ExecutePreprocessor.timeout=-1 \
-	--FilesWriter.build_directory=../results \
-	--execute WorkshopSolutions/Workshop_1_Solutions.ipynb
-
-jupyter nbconvert \
-	--to 'html' \
-	--ExecutePreprocessor.allow_errors=True \
-	--ExecutePreprocessor.timeout=-1 \
-	--FilesWriter.build_directory=../results \
-	--execute WorkshopSolutions/Workshop_2_Solutions.ipynb
+python -u run_capsule.py "$@"

@@ -1,17 +1,6 @@
 # SWDB_2023
-![SWDB_2023](/code/Resources/cropped-SummerWorkshop_Header.png)
 
-This is the repository for the Behavior States tutorial for the 2023 Summer Workshop on the Dynamic Brain.
-
-Brief topic outline: 
-
-
-Workshop 1: Explore Visual Behavioral Neuropixels dataset, manual estimation of behavioral states. 
-
-Workshop 2: Gaussian mixture model and hidden Markov model for state-space analysis on behavior data 
-
-List of keywords: behavioral state, mixture models, hidden Markov model,  Visual Behavior Neuropixels
-
+This is the template repository for the Visual Behavior datasets for the 2023 Summer Workshop on the Dynamic Brain.
 
 # Support Policy
 
