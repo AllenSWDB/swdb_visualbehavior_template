@@ -2,7 +2,7 @@
 .vscode
 
 # remove temp files
-.DS_Store
+*/.DS_Store
 ~*
 *~
 *.tmp
