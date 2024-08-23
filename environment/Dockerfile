@@ -1,5 +1,6 @@
-# hash:sha256:3c09b543c48e44c5101c6214c0ea6b12b9be7764a1be670f4e8152f31acd1e1d
-FROM registry.codeocean.allenneuraldynamics.org/codeocean/jupyterlab:3.6.1-miniconda4.12.0-python3.9-ubuntu20.04
+# hash:sha256:6d0239b34855770e1a46c0e93a9075ae744848b54854aebc5e56a2ca76ad8136
+ARG REGISTRY_HOST
+FROM $REGISTRY_HOST/codeocean/jupyterlab:3.6.1-miniconda4.12.0-python3.9-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -8,10 +9,8 @@ ARG GIT_ACCESS_TOKEN
 COPY git-askpass /
 
 RUN pip install -U --no-cache-dir \
-    ipywidgets \
-    numpy==1.23.4 \
-    scikit-learn==1.3.0 \
-    allensdk==2.15.1 \
-    dynamax[notebooks]
-
-ENV PYTHONPATH "${PYTHONPATH}:/root/capsule/code"
+    allensdk==2.16.2 \
+    brain-observatory-utilities==0.4.0 \
+    pandas==1.5.3 \
+    scikit-learn==1.5.1 \
+    seaborn==0.13.2
