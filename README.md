@@ -1,6 +1,6 @@
 # SWDB_2024
 
-This is the template repository for the Physiology datasets for the Summer Workshop on the Dynamic Brain.
+This is the template repository for the Visual Behavior datasets for the Summer Workshop on the Dynamic Brain.
 
 # Support Policy
 
